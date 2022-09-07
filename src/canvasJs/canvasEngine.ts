@@ -32,7 +32,7 @@ class Renderer{
                 value.draw(this.ctx, this.config);
                 i++;
             })
-            console.log(i);
+            // console.log(i);
             requestAnimationFrame(tick)
         }
         tick();
